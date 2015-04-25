@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiCon", "DiCon\DiCon.csproj", "{99F30C4C-0EF5-4C09-A8AA-C152D071A1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testEditWord", "..\testEditWord\testEditWord\testEditWord.csproj", "{F3A06BDD-741F-43EA-8742-5264A251C537}"
+	ProjectSection(ProjectDependencies) = postProject
+		{99F30C4C-0EF5-4C09-A8AA-C152D071A1B1} = {99F30C4C-0EF5-4C09-A8AA-C152D071A1B1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testReadXML", "..\testReadXML\testReadXML\testReadXML.csproj", "{544A96F8-1368-41FB-9266-8D4DE308CF90}"
+	ProjectSection(ProjectDependencies) = postProject
+		{99F30C4C-0EF5-4C09-A8AA-C152D071A1B1} = {99F30C4C-0EF5-4C09-A8AA-C152D071A1B1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testRemoteServer", "..\testRemoteServer\testRemoteServer\testRemoteServer.csproj", "{B087C40A-C248-4539-A550-260378A5D793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testCreateHearingString", "..\testCreateHearingString\testCreateHearingString\testCreateHearingString.csproj", "{BF7E7051-B764-4E2E-AB5E-DE4DFD3C8F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testSizingWLS", "..\testSizingWLS\testSizingWLS\testSizingWLS.csproj", "{8D2BDF67-233D-4A22-8397-4013648FE02C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testV2oCheckDB", "..\testV2oCheckDB\testV2oCheckDB\testV2oCheckDB.csproj", "{E040C1B7-A5E0-42D5-AE14-A9ECD984F956}"
+	ProjectSection(ProjectDependencies) = postProject
+		{99F30C4C-0EF5-4C09-A8AA-C152D071A1B1} = {99F30C4C-0EF5-4C09-A8AA-C152D071A1B1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99F30C4C-0EF5-4C09-A8AA-C152D071A1B1}.Debug|x86.ActiveCfg = Debug|x86
+		{99F30C4C-0EF5-4C09-A8AA-C152D071A1B1}.Debug|x86.Build.0 = Debug|x86
+		{99F30C4C-0EF5-4C09-A8AA-C152D071A1B1}.Release|x86.ActiveCfg = Release|x86
+		{99F30C4C-0EF5-4C09-A8AA-C152D071A1B1}.Release|x86.Build.0 = Release|x86
+		{F3A06BDD-741F-43EA-8742-5264A251C537}.Debug|x86.ActiveCfg = Debug|x86
+		{F3A06BDD-741F-43EA-8742-5264A251C537}.Debug|x86.Build.0 = Debug|x86
+		{F3A06BDD-741F-43EA-8742-5264A251C537}.Release|x86.ActiveCfg = Release|x86
+		{F3A06BDD-741F-43EA-8742-5264A251C537}.Release|x86.Build.0 = Release|x86
+		{544A96F8-1368-41FB-9266-8D4DE308CF90}.Debug|x86.ActiveCfg = Debug|x86
+		{544A96F8-1368-41FB-9266-8D4DE308CF90}.Debug|x86.Build.0 = Debug|x86
+		{544A96F8-1368-41FB-9266-8D4DE308CF90}.Release|x86.ActiveCfg = Release|x86
+		{544A96F8-1368-41FB-9266-8D4DE308CF90}.Release|x86.Build.0 = Release|x86
+		{B087C40A-C248-4539-A550-260378A5D793}.Debug|x86.ActiveCfg = Debug|x86
+		{B087C40A-C248-4539-A550-260378A5D793}.Debug|x86.Build.0 = Debug|x86
+		{B087C40A-C248-4539-A550-260378A5D793}.Release|x86.ActiveCfg = Release|x86
+		{B087C40A-C248-4539-A550-260378A5D793}.Release|x86.Build.0 = Release|x86
+		{BF7E7051-B764-4E2E-AB5E-DE4DFD3C8F71}.Debug|x86.ActiveCfg = Debug|x86
+		{BF7E7051-B764-4E2E-AB5E-DE4DFD3C8F71}.Debug|x86.Build.0 = Debug|x86
+		{BF7E7051-B764-4E2E-AB5E-DE4DFD3C8F71}.Release|x86.ActiveCfg = Release|x86
+		{BF7E7051-B764-4E2E-AB5E-DE4DFD3C8F71}.Release|x86.Build.0 = Release|x86
+		{8D2BDF67-233D-4A22-8397-4013648FE02C}.Debug|x86.ActiveCfg = Debug|x86
+		{8D2BDF67-233D-4A22-8397-4013648FE02C}.Debug|x86.Build.0 = Debug|x86
+		{8D2BDF67-233D-4A22-8397-4013648FE02C}.Release|x86.ActiveCfg = Release|x86
+		{8D2BDF67-233D-4A22-8397-4013648FE02C}.Release|x86.Build.0 = Release|x86
+		{E040C1B7-A5E0-42D5-AE14-A9ECD984F956}.Debug|x86.ActiveCfg = Debug|x86
+		{E040C1B7-A5E0-42D5-AE14-A9ECD984F956}.Debug|x86.Build.0 = Debug|x86
+		{E040C1B7-A5E0-42D5-AE14-A9ECD984F956}.Release|x86.ActiveCfg = Release|x86
+		{E040C1B7-A5E0-42D5-AE14-A9ECD984F956}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
